@@ -5,4 +5,5 @@ void main() {
 
   goldfish.move();
   goldfish.makeSound();
+  goldfish.breatheUnderWater();
 }
