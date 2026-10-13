@@ -7,5 +7,9 @@ abstract class CanWalk {
 
 abstract class CanBreatheUnderWater {
   void breatheUnderWater();
-  
+}
+void globalFly(Object? tier) {
+  if (tier is CanFly) {
+    tier.fly();
+  }
 }
